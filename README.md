@@ -30,14 +30,21 @@ RegistrationSubjects.Api/
     ├── Services/ 
     
 RegistrationSubjects.Core/ 
+
     ├── Entities/ 
     ├── DTOs/ 
     ├── Interfaces/ 
+    
 RegistrationSubjects.Infrastructure/ 
+
     ├── Contexts/ 
+    
 RegistrationSubjects.Tests/ 
+
     ├── Services/ 
+    
 RegistrationSubjects.IntegrationTests/ 
+
     ├── CustomWebApplicationFactory.cs
 
 - **Api**: Controladores y servicios de negocio
