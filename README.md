@@ -25,8 +25,10 @@ Sistema de inscripción académica en línea para estudiantes bajo un programa d
 Proyecto basado en .NET 8 con patrón de capas:
 
 RegistrationSubjects.Api/ 
+
     ├── Controllers/ 
     ├── Services/ 
+    
 RegistrationSubjects.Core/ 
     ├── Entities/ 
     ├── DTOs/ 
