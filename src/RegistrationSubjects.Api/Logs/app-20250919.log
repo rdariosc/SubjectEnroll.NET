@@ -1,0 +1,216 @@
+2025-09-19 15:08:59.685 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 15:08:59.741 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 15:08:59.810 -05:00 [INF] Now listening on: http://localhost:5074
+2025-09-19 15:08:59.812 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-19 15:08:59.812 -05:00 [INF] Hosting environment: Development
+2025-09-19 15:08:59.813 -05:00 [INF] Content root path: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api
+2025-09-19 15:18:23.301 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments/subjects - null null
+2025-09-19 15:18:23.325 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:18:23.329 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments/subjects - 204 null null 28.5836ms
+2025-09-19 15:18:23.334 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/enrollments/subjects - null null
+2025-09-19 15:18:23.340 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:18:23.342 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 15:18:23.378 -05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '19/09/2025 06:49:48 p. m.', Current time (UTC): '19/09/2025 08:18:23 p. m.'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2025-09-19 15:18:23.390 -05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '19/09/2025 06:49:48 p. m.', Current time (UTC): '19/09/2025 08:18:23 p. m.'.
+2025-09-19 15:18:23.393 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 15:18:23.396 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 15:18:23.398 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/enrollments/subjects - 401 0 null 63.5408ms
+2025-09-19 15:18:25.754 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5074/api/auth/login - null null
+2025-09-19 15:18:25.757 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:18:25.758 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5074/api/auth/login - 204 null null 4.0499ms
+2025-09-19 15:18:25.761 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/auth/login - application/json 51
+2025-09-19 15:18:25.764 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:18:25.766 -05:00 [INF] Executing endpoint 'AuthController.Login (RegistrationSubjects.Api)'
+2025-09-19 15:18:25.781 -05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LoginDto) on controller AuthController (RegistrationSubjects.Api).
+2025-09-19 15:18:26.528 -05:00 [INF] Executed DbCommand (24ms) [Parameters=[@__dto_Email_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [s].[Id], [s].[Email], [s].[first_name], [s].[last_name], [s].[Password]
+FROM [student] AS [s]
+WHERE [s].[Email] = @__dto_Email_0
+2025-09-19 15:18:26.961 -05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-19 15:18:26.972 -05:00 [INF] Executed action AuthController.Login (RegistrationSubjects.Api) in 1187.5975ms
+2025-09-19 15:18:26.973 -05:00 [INF] Executed endpoint 'AuthController.Login (RegistrationSubjects.Api)'
+2025-09-19 15:18:26.978 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/auth/login - 200 null application/json; charset=utf-8 1217.575ms
+2025-09-19 15:18:27.985 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/enrollments/subjects - null null
+2025-09-19 15:18:27.987 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:18:27.993 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 15:18:27.997 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 15:18:28.000 -05:00 [INF] Iniciando la obntencion de materias disponibles
+2025-09-19 15:18:28.051 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[title], [p].[name]
+FROM [subject] AS [s]
+INNER JOIN [professor] AS [p] ON [s].[Professor_Id] = [p].[Id]
+2025-09-19 15:18:28.053 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 15:18:28.057 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 59.0882ms
+2025-09-19 15:18:28.058 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 15:18:28.059 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/enrollments/subjects - 200 null application/json; charset=utf-8 74.5853ms
+2025-09-19 15:33:48.071 -05:00 [INF] Application is shutting down...
+2025-09-19 15:33:53.162 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 15:33:53.211 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 15:33:53.278 -05:00 [INF] Now listening on: http://localhost:5074
+2025-09-19 15:33:53.280 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-19 15:33:53.280 -05:00 [INF] Hosting environment: Development
+2025-09-19 15:33:53.281 -05:00 [INF] Content root path: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api
+2025-09-19 15:33:58.025 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments/student/2 - null null
+2025-09-19 15:33:58.046 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:33:58.049 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments/student/2 - 204 null null 24.6768ms
+2025-09-19 15:33:58.053 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/enrollments/student/2 - null null
+2025-09-19 15:33:58.058 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:33:58.060 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 15:33:58.101 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 15:33:58.113 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 15:33:58.188 -05:00 [INF] Iniciando la obtencion de materias inscritas 2 ------------ 
+2025-09-19 15:33:59.349 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments/shared/2 - null null
+2025-09-19 15:33:59.351 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:33:59.352 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments/shared/2 - 204 null null 3.2967ms
+2025-09-19 15:33:59.354 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/enrollments/shared/2 - null null
+2025-09-19 15:33:59.356 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:33:59.359 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 15:33:59.362 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 15:33:59.366 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 2 ------------ 
+2025-09-19 15:34:00.571 -05:00 [INF] Executed DbCommand (24ms) [Parameters=[@__studentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[StudentId], [s].[title], [p].[name]
+FROM [enrollment] AS [e]
+INNER JOIN [subject] AS [s] ON [e].[SubjectId] = [s].[Id]
+INNER JOIN [professor] AS [p] ON [s].[Professor_Id] = [p].[Id]
+WHERE [e].[StudentId] = @__studentId_0
+2025-09-19 15:34:00.571 -05:00 [INF] Executed DbCommand (24ms) [Parameters=[@__studentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[SubjectId]
+FROM [enrollment] AS [e]
+WHERE [e].[StudentId] = @__studentId_0
+2025-09-19 15:34:00.595 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 15:34:00.612 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 2495.0025ms
+2025-09-19 15:34:00.613 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 15:34:00.618 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/enrollments/student/2 - 200 null application/json; charset=utf-8 2564.9246ms
+2025-09-19 15:34:00.681 -05:00 [INF] Executed DbCommand (26ms) [Parameters=[@__subjectIds_0='?' (Size = 4000), @__studentId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s4].[title], [s5].[first_name]
+FROM (
+    SELECT [s0].[title]
+    FROM [enrollment] AS [e]
+    INNER JOIN [subject] AS [s0] ON [e].[SubjectId] = [s0].[Id]
+    WHERE [e].[SubjectId] IN (
+        SELECT [s].[value]
+        FROM OPENJSON(@__subjectIds_0) WITH ([value] int '$') AS [s]
+    )
+    GROUP BY [s0].[title]
+) AS [s4]
+OUTER APPLY (
+    SELECT DISTINCT [s3].[first_name]
+    FROM [enrollment] AS [e0]
+    INNER JOIN [subject] AS [s1] ON [e0].[SubjectId] = [s1].[Id]
+    INNER JOIN [student] AS [s3] ON [e0].[StudentId] = [s3].[Id]
+    WHERE [e0].[SubjectId] IN (
+        SELECT [s2].[value]
+        FROM OPENJSON(@__subjectIds_0) WITH ([value] int '$') AS [s2]
+    ) AND [s4].[title] = [s1].[title] AND [e0].[StudentId] <> @__studentId_1
+) AS [s5]
+ORDER BY [s4].[title]
+2025-09-19 15:34:00.685 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 15:34:00.687 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 1324.0099ms
+2025-09-19 15:34:00.688 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 15:34:00.689 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/enrollments/shared/2 - 200 null application/json; charset=utf-8 1335.1328ms
+2025-09-19 15:34:01.679 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/enrollments/student/2 - null null
+2025-09-19 15:34:01.680 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:34:01.682 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 15:34:01.683 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 15:34:01.686 -05:00 [INF] Iniciando la obtencion de materias inscritas 2 ------------ 
+2025-09-19 15:34:01.722 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__studentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[StudentId], [s].[title], [p].[name]
+FROM [enrollment] AS [e]
+INNER JOIN [subject] AS [s] ON [e].[SubjectId] = [s].[Id]
+INNER JOIN [professor] AS [p] ON [s].[Professor_Id] = [p].[Id]
+WHERE [e].[StudentId] = @__studentId_0
+2025-09-19 15:34:01.723 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 15:34:01.724 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 39.7025ms
+2025-09-19 15:34:01.725 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 15:34:01.726 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/enrollments/student/2 - 200 null application/json; charset=utf-8 47.2556ms
+2025-09-19 15:34:02.684 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments/subjects - null null
+2025-09-19 15:34:02.686 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:34:02.686 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments/subjects - 204 null null 2.3711ms
+2025-09-19 15:34:02.689 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5074/api/enrollments/subjects - null null
+2025-09-19 15:34:02.691 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:34:02.692 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 15:34:02.695 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 15:34:02.698 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 15:34:02.706 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[title], [p].[name]
+FROM [subject] AS [s]
+INNER JOIN [professor] AS [p] ON [s].[Professor_Id] = [p].[Id]
+2025-09-19 15:34:02.708 -05:00 [INF] Materias disponibles 10 ------------ 
+2025-09-19 15:34:02.709 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 15:34:02.712 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 15.8958ms
+2025-09-19 15:34:02.714 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 15:34:02.715 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5074/api/enrollments/subjects - 200 null application/json; charset=utf-8 25.8901ms
+2025-09-19 15:34:06.274 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments - null null
+2025-09-19 15:34:06.277 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:34:06.277 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments - 204 null null 3.0231ms
+2025-09-19 15:34:06.280 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/enrollments - application/json 36
+2025-09-19 15:34:06.282 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:34:06.283 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 15:34:06.286 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 15:34:06.312 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 2 ------------ 
+2025-09-19 15:34:06.342 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Email], [s].[first_name], [s].[last_name], [s].[Password]
+FROM [student] AS [s]
+WHERE [s].[Id] = @__p_0
+2025-09-19 15:34:06.380 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__subjectIds_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[credits], [s].[Professor_Id], [s].[title]
+FROM [subject] AS [s]
+WHERE [s].[Id] IN (
+    SELECT [s0].[value]
+    FROM OPENJSON(@__subjectIds_0) WITH ([value] int '$') AS [s0]
+)
+2025-09-19 15:34:06.399 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__studentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[createdat], [e].[StudentId], [e].[SubjectId], [s].[Id], [s].[credits], [s].[Professor_Id], [s].[title]
+FROM [enrollment] AS [e]
+INNER JOIN [subject] AS [s] ON [e].[SubjectId] = [s].[Id]
+WHERE [e].[StudentId] = @__studentId_0
+2025-09-19 15:34:06.418 -05:00 [ERR] Error al iscribir materias, estudiante: 2 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Infrastructure.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 15:34:06.426 -05:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-19 15:34:06.429 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 141.2029ms
+2025-09-19 15:34:06.429 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 15:34:06.430 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/enrollments - 409 null application/json; charset=utf-8 150.5813ms
+2025-09-19 15:38:10.820 -05:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments - null null
+2025-09-19 15:38:10.822 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:38:10.822 -05:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5074/api/enrollments - 204 null null 2.1328ms
+2025-09-19 15:38:10.824 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost:5074/api/enrollments - application/json 36
+2025-09-19 15:38:10.826 -05:00 [INF] CORS policy execution successful.
+2025-09-19 15:38:10.827 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 15:38:10.828 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 15:38:10.830 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 2 ------------ 
+2025-09-19 15:38:10.836 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[Email], [s].[first_name], [s].[last_name], [s].[Password]
+FROM [student] AS [s]
+WHERE [s].[Id] = @__p_0
+2025-09-19 15:38:10.842 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__subjectIds_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[credits], [s].[Professor_Id], [s].[title]
+FROM [subject] AS [s]
+WHERE [s].[Id] IN (
+    SELECT [s0].[value]
+    FROM OPENJSON(@__subjectIds_0) WITH ([value] int '$') AS [s0]
+)
+2025-09-19 15:38:10.845 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__studentId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [e].[Id], [e].[createdat], [e].[StudentId], [e].[SubjectId], [s].[Id], [s].[credits], [s].[Professor_Id], [s].[title]
+FROM [enrollment] AS [e]
+INNER JOIN [subject] AS [s] ON [e].[SubjectId] = [s].[Id]
+WHERE [e].[StudentId] = @__studentId_0
+2025-09-19 15:38:10.847 -05:00 [ERR] Error al iscribir materias, estudiante: 2 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Infrastructure.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 15:38:10.848 -05:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType3`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-19 15:38:10.849 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 19.9328ms
+2025-09-19 15:38:10.850 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 15:38:10.850 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost:5074/api/enrollments - 409 null application/json; charset=utf-8 26.1773ms
+2025-09-19 15:38:19.746 -05:00 [INF] Application is shutting down...

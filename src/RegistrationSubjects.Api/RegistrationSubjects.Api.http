@@ -1,0 +1,6 @@
+@RegistrationSubjects.Api_HostAddress = http://localhost:5074
+
+GET {{RegistrationSubjects.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

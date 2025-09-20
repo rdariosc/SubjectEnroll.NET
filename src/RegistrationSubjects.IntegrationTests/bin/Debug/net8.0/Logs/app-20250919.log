@@ -1,0 +1,852 @@
+2025-09-19 17:56:32.923 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 17:56:32.959 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 17:56:33.022 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 17:56:33.043 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 17:56:33.089 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 17:56:33.091 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 17:56:33.094 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 401 null null 72.1992ms
+2025-09-19 17:56:33.124 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 17:56:33.129 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 17:56:33.129 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 17:56:33.129 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 401 null null 6.1439ms
+2025-09-19 17:56:33.130 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/2 - null null
+2025-09-19 17:56:33.131 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 17:56:33.131 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 17:56:33.131 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/2 - 401 null null 1.8384ms
+2025-09-19 17:56:33.132 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 17:56:33.132 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 17:56:33.133 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 17:56:33.133 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 401 null null 0.2824ms
+2025-09-19 17:56:33.134 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 17:56:33.134 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 17:56:33.134 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 17:56:33.134 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 401 null null 0.3243ms
+2025-09-19 19:02:07.990 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:02:08.088 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:02:08.132 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:02:08.149 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:02:08.205 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:02:08.216 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:02:08.258 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 19:02:08.260 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 19:02:08.263 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 401 null null 59.4249ms
+2025-09-19 19:02:08.291 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 19:02:08.296 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 19:02:08.296 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 19:02:08.297 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 401 null null 5.8077ms
+2025-09-19 19:02:08.300 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:02:08.301 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 19:02:08.301 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 19:02:08.301 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 401 null null 1.5703ms
+2025-09-19 19:02:08.302 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:02:08.302 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 19:02:08.302 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 19:02:08.302 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 401 null null 0.2475ms
+2025-09-19 19:08:42.120 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:08:42.217 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:08:42.264 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:08:42.280 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:08:42.332 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:08:42.344 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:08:42.361 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 19:08:42.364 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 19:08:42.367 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 401 null null 35.9108ms
+2025-09-19 19:08:42.392 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 19:08:42.397 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 19:08:42.397 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 19:08:42.397 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 401 null null 5.75ms
+2025-09-19 19:08:42.401 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:08:42.402 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 19:08:42.402 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 19:08:42.402 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 401 null null 1.6782ms
+2025-09-19 19:08:42.403 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:08:42.403 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-09-19 19:08:42.403 -05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2025-09-19 19:08:42.403 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 401 null null 0.2632ms
+2025-09-19 19:10:58.954 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:10:59.058 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:10:59.101 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:10:59.117 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:10:59.168 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:10:59.179 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:10:59.188 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:10:59.197 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:10:59.200 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:10:59.299 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:10:59.302 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:10:59.317 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 118.1561ms
+2025-09-19 19:10:59.318 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:10:59.320 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 153.1746ms
+2025-09-19 19:10:59.330 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 19:10:59.333 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:10:59.338 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:10:59.356 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:10:59.411 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 19:10:59.414 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 76.7105ms
+2025-09-19 19:10:59.415 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:10:59.415 -05:00 [ERR] Error no controlado detectado
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:10:59.420 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 500 null application/json 90.7534ms
+2025-09-19 19:10:59.427 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:10:59.429 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:10:59.431 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:10:59.434 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:10:59.442 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:10:59.443 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 12.4492ms
+2025-09-19 19:10:59.443 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:10:59.443 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 16.7493ms
+2025-09-19 19:10:59.444 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:10:59.444 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:10:59.446 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:10:59.448 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:10:59.472 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:10:59.473 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 26.6602ms
+2025-09-19 19:10:59.473 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:10:59.473 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 29.0703ms
+2025-09-19 19:11:27.229 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:11:27.325 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:11:27.368 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:11:27.383 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:11:27.432 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:11:27.444 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:11:27.450 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:11:27.462 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:11:27.466 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:11:27.568 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:11:27.571 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:11:27.586 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 122.5166ms
+2025-09-19 19:11:27.588 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:11:27.590 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 158.3845ms
+2025-09-19 19:11:27.600 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 19:11:27.604 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:11:27.608 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:11:27.627 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:11:27.682 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 19:11:27.685 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 76.5903ms
+2025-09-19 19:11:27.685 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:11:27.685 -05:00 [ERR] Error no controlado detectado
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:11:27.691 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 500 null application/json 90.6354ms
+2025-09-19 19:11:27.697 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:11:27.699 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:11:27.701 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:11:27.705 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:11:27.713 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:11:27.714 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 12.5723ms
+2025-09-19 19:11:27.714 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:11:27.714 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 17.1211ms
+2025-09-19 19:11:27.715 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:11:27.715 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:11:27.717 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:11:27.719 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:11:27.743 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:11:27.744 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 27.2117ms
+2025-09-19 19:11:27.744 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:11:27.745 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 29.8697ms
+2025-09-19 19:12:55.807 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:12:55.903 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:12:55.950 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:12:55.967 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:12:56.019 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:12:56.031 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:12:56.040 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:12:56.048 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:12:56.052 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:12:56.148 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:12:56.151 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:12:56.166 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 115.9731ms
+2025-09-19 19:12:56.167 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:12:56.169 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 151.4852ms
+2025-09-19 19:12:56.179 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 19:12:56.182 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:12:56.186 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:12:56.205 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:12:56.249 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.Collections.Generic.KeyNotFoundException: Una o más materias solicitadas no existen.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 122
+2025-09-19 19:12:56.252 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 65.3068ms
+2025-09-19 19:12:56.252 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:12:56.252 -05:00 [ERR] Error no controlado detectado
+System.Collections.Generic.KeyNotFoundException: Una o más materias solicitadas no existen.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 122
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:12:56.257 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 404 null application/json 78.5686ms
+2025-09-19 19:12:56.264 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:12:56.267 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:12:56.269 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:12:56.272 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:12:56.281 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:12:56.283 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 13.848ms
+2025-09-19 19:12:56.283 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:12:56.283 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 18.4253ms
+2025-09-19 19:12:56.283 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:12:56.284 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:12:56.285 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:12:56.287 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:12:56.311 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:12:56.312 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 26.2611ms
+2025-09-19 19:12:56.312 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:12:56.312 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 28.5086ms
+2025-09-19 19:14:16.671 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:14:16.770 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:14:16.813 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:14:16.828 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:14:16.877 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:14:16.888 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:14:16.895 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:14:16.906 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:14:16.910 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:14:17.004 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:14:17.007 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:14:17.022 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 114.4911ms
+2025-09-19 19:14:17.023 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:14:17.025 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 149.0382ms
+2025-09-19 19:14:17.035 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 19:14:17.038 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:14:17.042 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:14:17.060 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:14:17.103 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.Collections.Generic.KeyNotFoundException: Una o más materias solicitadas no existen.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 122
+2025-09-19 19:14:17.106 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 63.7853ms
+2025-09-19 19:14:17.106 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:14:17.107 -05:00 [ERR] Error no controlado detectado
+System.Collections.Generic.KeyNotFoundException: Una o más materias solicitadas no existen.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 122
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:14:17.111 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 404 null application/json 76.8226ms
+2025-09-19 19:14:17.118 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:14:17.120 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:14:17.122 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:14:17.125 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:14:17.135 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:14:17.137 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 14.4756ms
+2025-09-19 19:14:17.137 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:14:17.137 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 18.6533ms
+2025-09-19 19:14:17.138 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:14:17.138 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:14:17.139 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:14:17.141 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:14:17.163 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:14:17.165 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 25.1423ms
+2025-09-19 19:14:17.165 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:14:17.165 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 27.2432ms
+2025-09-19 19:15:54.996 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:15:55.093 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:15:55.138 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:15:55.155 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:15:55.206 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:15:55.218 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:15:55.227 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:15:55.236 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:15:55.240 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:15:55.335 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:15:55.338 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:15:55.352 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 114.3654ms
+2025-09-19 19:15:55.354 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:15:55.356 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 150.917ms
+2025-09-19 19:15:55.365 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 19:15:55.368 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:15:55.372 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:15:55.390 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:15:55.433 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.Collections.Generic.KeyNotFoundException: Una o más materias solicitadas no existen.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 122
+2025-09-19 19:15:55.436 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 63.773ms
+2025-09-19 19:15:55.436 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:15:55.437 -05:00 [ERR] Error no controlado detectado
+System.Collections.Generic.KeyNotFoundException: Una o más materias solicitadas no existen.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 122
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:15:55.442 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 404 null application/json 77.064ms
+2025-09-19 19:15:55.448 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:15:55.450 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:15:55.452 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:15:55.456 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:15:55.465 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:15:55.466 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 13.345ms
+2025-09-19 19:15:55.466 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:15:55.466 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 17.5861ms
+2025-09-19 19:15:55.467 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:15:55.467 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:15:55.469 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:15:55.470 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:15:55.494 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:15:55.496 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 26.7362ms
+2025-09-19 19:15:55.496 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:15:55.496 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 28.9749ms
+2025-09-19 19:20:39.490 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:20:39.588 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:20:39.634 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:20:39.650 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:20:39.703 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:20:39.717 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:20:39.727 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:20:39.737 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:20:39.742 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:20:39.849 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:20:39.852 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:20:39.867 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 127.8787ms
+2025-09-19 19:20:39.868 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:20:39.871 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 168.8056ms
+2025-09-19 19:20:39.881 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 33
+2025-09-19 19:20:39.884 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:20:39.888 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:20:39.908 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:20:39.951 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.Collections.Generic.KeyNotFoundException: Una o más materias solicitadas no existen.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 122
+2025-09-19 19:20:39.954 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 66.0392ms
+2025-09-19 19:20:39.955 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:20:39.955 -05:00 [ERR] Error no controlado detectado
+System.Collections.Generic.KeyNotFoundException: Una o más materias solicitadas no existen.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 122
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:20:39.960 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 404 null application/json 79.548ms
+2025-09-19 19:20:39.966 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:20:39.969 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:20:39.971 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:20:39.974 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:20:39.983 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:20:39.984 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 13.6838ms
+2025-09-19 19:20:39.984 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:20:39.985 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 18.1411ms
+2025-09-19 19:20:39.985 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:20:39.985 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:20:39.987 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:20:39.989 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:20:40.013 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:20:40.014 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 26.7452ms
+2025-09-19 19:20:40.014 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:20:40.014 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 29.0315ms
+2025-09-19 19:21:16.473 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:21:16.572 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:21:16.618 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:21:16.634 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:21:16.683 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:21:16.695 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:21:16.701 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:21:16.713 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:21:16.717 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:21:16.814 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:21:16.817 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:21:16.834 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 118.9024ms
+2025-09-19 19:21:16.835 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:21:16.837 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 154.8143ms
+2025-09-19 19:21:16.847 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 32
+2025-09-19 19:21:16.851 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:21:16.855 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:21:16.874 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:21:16.931 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 19:21:16.934 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 78.6596ms
+2025-09-19 19:21:16.934 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:21:16.934 -05:00 [ERR] Error no controlado detectado
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:21:16.940 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 500 null application/json 92.7778ms
+2025-09-19 19:21:16.946 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:21:16.949 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:21:16.951 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:21:16.954 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:21:16.962 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:21:16.964 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 12.896ms
+2025-09-19 19:21:16.964 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:21:16.964 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 17.4367ms
+2025-09-19 19:21:16.964 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:21:16.965 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:21:16.967 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:21:16.968 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:21:16.992 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:21:16.994 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 26.9434ms
+2025-09-19 19:21:16.994 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:21:16.994 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 29.3069ms
+2025-09-19 19:23:06.042 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:23:06.136 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:23:06.179 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:23:06.194 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:23:06.250 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:23:06.262 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:23:06.268 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:23:06.279 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:23:06.283 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:23:06.380 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:23:06.383 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:23:06.399 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 118.6977ms
+2025-09-19 19:23:06.401 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:23:06.403 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 153.765ms
+2025-09-19 19:23:06.413 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 32
+2025-09-19 19:23:06.416 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:23:06.420 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:23:06.439 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:23:06.497 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 19:23:06.500 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 79.9246ms
+2025-09-19 19:23:06.500 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:23:06.500 -05:00 [ERR] Error no controlado detectado
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:23:06.506 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 500 null application/json 93.317ms
+2025-09-19 19:23:06.512 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:23:06.514 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:23:06.516 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:23:06.520 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:23:06.528 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:23:06.529 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 12.7932ms
+2025-09-19 19:23:06.529 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:23:06.529 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 17.1323ms
+2025-09-19 19:23:06.530 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:23:06.530 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:23:06.532 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:23:06.533 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:23:06.556 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:23:06.557 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 25.5766ms
+2025-09-19 19:23:06.558 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:23:06.558 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 27.7847ms
+2025-09-19 19:24:45.438 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:24:45.533 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:24:45.576 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:24:45.591 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:24:45.641 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:24:45.652 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:24:45.661 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:24:45.670 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:24:45.674 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:24:45.770 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:24:45.773 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:24:45.787 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 115.3335ms
+2025-09-19 19:24:45.789 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:24:45.791 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 150.9323ms
+2025-09-19 19:24:45.800 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 32
+2025-09-19 19:24:45.804 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:24:45.808 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:24:45.825 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:24:45.879 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 19:24:45.882 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 74.3759ms
+2025-09-19 19:24:45.882 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:24:45.883 -05:00 [ERR] Error no controlado detectado
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:24:45.888 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 500 null application/json 87.5699ms
+2025-09-19 19:24:45.894 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:24:45.896 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:24:45.898 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:24:45.902 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:24:45.911 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:24:45.912 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 13.2367ms
+2025-09-19 19:24:45.912 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:24:45.912 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 17.4859ms
+2025-09-19 19:24:45.913 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:24:45.913 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:24:45.915 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:24:45.916 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:24:45.940 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:24:45.941 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 26.4798ms
+2025-09-19 19:24:45.941 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:24:45.941 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 28.774ms
+2025-09-19 19:26:31.917 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:26:32.018 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:26:32.063 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:26:32.078 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:26:32.130 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:26:32.142 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:26:32.151 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:26:32.159 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:26:32.163 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:26:32.257 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:26:32.261 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:26:32.278 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 116.5323ms
+2025-09-19 19:26:32.279 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:26:32.281 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 151.8985ms
+2025-09-19 19:26:32.291 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 32
+2025-09-19 19:26:32.294 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:26:32.299 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:26:32.316 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:26:32.372 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 19:26:32.375 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 76.1867ms
+2025-09-19 19:26:32.375 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:26:32.375 -05:00 [ERR] Error no controlado detectado
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:26:32.380 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 500 null application/json 90.0749ms
+2025-09-19 19:26:32.387 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:26:32.389 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:26:32.391 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:26:32.394 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:26:32.403 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:26:32.404 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 13.2131ms
+2025-09-19 19:26:32.404 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:26:32.404 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 17.8084ms
+2025-09-19 19:26:32.405 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:26:32.405 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:26:32.407 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:26:32.409 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:26:32.433 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:26:32.434 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 26.8513ms
+2025-09-19 19:26:32.434 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:26:32.434 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 29.3369ms
+2025-09-19 19:26:41.933 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:26:42.029 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:26:42.072 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:26:42.087 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:26:42.137 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:26:42.149 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:26:42.155 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:26:42.168 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:26:42.171 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:26:42.267 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:26:42.270 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:26:42.284 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 115.0332ms
+2025-09-19 19:26:42.286 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:26:42.288 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 152.184ms
+2025-09-19 19:26:42.298 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 32
+2025-09-19 19:26:42.301 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:26:42.305 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:26:42.323 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:26:42.380 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 19:26:42.383 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 78.4504ms
+2025-09-19 19:26:42.384 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:26:42.384 -05:00 [ERR] Error no controlado detectado
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:26:42.390 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 500 null application/json 92.0832ms
+2025-09-19 19:26:42.396 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:26:42.399 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:26:42.401 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:26:42.404 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:26:42.413 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:26:42.414 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 13.3563ms
+2025-09-19 19:26:42.414 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:26:42.414 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 17.8214ms
+2025-09-19 19:26:42.415 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:26:42.415 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:26:42.417 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:26:42.419 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:26:42.443 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:26:42.444 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 27.3113ms
+2025-09-19 19:26:42.444 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:26:42.445 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 29.5975ms
+2025-09-19 19:30:11.270 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:30:11.370 -05:00 [INF] Saved 4 entities to in-memory store.
+2025-09-19 19:30:11.415 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:30:11.430 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:30:11.481 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:30:11.493 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:30:11.503 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:30:11.512 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:30:11.516 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:30:11.611 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:30:11.614 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:30:11.628 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 114.6883ms
+2025-09-19 19:30:11.630 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:30:11.632 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 151.4554ms
+2025-09-19 19:30:11.643 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 32
+2025-09-19 19:30:11.646 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:30:11.650 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:30:11.668 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:30:11.722 -05:00 [ERR] Error al iscribir materias, estudiante: 1 ------------ 
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+2025-09-19 19:30:11.725 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 74.7655ms
+2025-09-19 19:30:11.725 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:30:11.726 -05:00 [ERR] Error no controlado detectado
+System.InvalidOperationException: No puedes tener más de una materia con el mismo profesor.
+   at RegistrationSubjects.Api.Services.EnrollmentService.EnrollAsync(Int32 studentId, List`1 subjectIds) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\Services\EnrollmentService.cs:line 135
+   at RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll(EnrollDTO req) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Api\EnrollmentsController.cs:line 36
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at RegistrationSubjects.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\Middlewares\ExceptionMiddleware.cs:line 21
+2025-09-19 19:30:11.731 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 500 null application/json 88.2012ms
+2025-09-19 19:30:11.737 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:30:11.740 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:30:11.742 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:30:11.745 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:30:11.753 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:30:11.754 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 12.509ms
+2025-09-19 19:30:11.754 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:30:11.754 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 16.8617ms
+2025-09-19 19:30:11.755 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:30:11.755 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:30:11.757 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:30:11.759 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:30:11.782 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:30:11.784 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 26.5492ms
+2025-09-19 19:30:11.784 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:30:11.784 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 28.9442ms
+2025-09-19 19:31:39.758 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 19:31:39.846 -05:00 [INF] Saved 3 entities to in-memory store.
+2025-09-19 19:31:39.895 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 19:31:39.912 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 19:31:39.968 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 19:31:39.980 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 19:31:39.987 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:31:40.000 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:31:40.004 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 19:31:40.102 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 19:31:40.105 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:31:40.121 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 119.1898ms
+2025-09-19 19:31:40.122 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 19:31:40.124 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 157.5227ms
+2025-09-19 19:31:40.134 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 32
+2025-09-19 19:31:40.137 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:31:40.141 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:31:40.159 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 19:31:40.228 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-09-19 19:31:40.228 -05:00 [INF] Executing CreatedResult, writing value of type 'null'.
+2025-09-19 19:31:40.228 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 86.9372ms
+2025-09-19 19:31:40.228 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 19:31:40.229 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 201 null null 95.3509ms
+2025-09-19 19:31:40.231 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 19:31:40.233 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:31:40.235 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:31:40.239 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 19:31:40.247 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:31:40.248 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 12.4776ms
+2025-09-19 19:31:40.248 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 19:31:40.248 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 16.6815ms
+2025-09-19 19:31:40.249 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 19:31:40.249 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:31:40.251 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 19:31:40.252 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 19:31:40.275 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 19:31:40.276 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 25.5788ms
+2025-09-19 19:31:40.276 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 19:31:40.276 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 27.7567ms
+2025-09-19 21:05:27.755 -05:00 [INF] Saved 0 entities to in-memory store.
+2025-09-19 21:05:27.845 -05:00 [INF] Saved 3 entities to in-memory store.
+2025-09-19 21:05:27.892 -05:00 [INF] User profile is available. Using 'C:\Users\PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-19 21:05:27.909 -05:00 [WRN] The WebRootPath was not found: C:\Projects\prueba.NET\EducationInstitution\src\RegistrationSubjects.Api\wwwroot. Static files may be unavailable.
+2025-09-19 21:05:27.960 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/subjects - null null
+2025-09-19 21:05:27.972 -05:00 [WRN] Failed to determine the https port for redirect.
+2025-09-19 21:05:27.979 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 21:05:27.988 -05:00 [INF] Route matched with {action = "GetSubjects", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetSubjects() on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 21:05:27.996 -05:00 [INF] Iniciando la obtencion de materias disponibles  ------------ 
+2025-09-19 21:05:28.093 -05:00 [INF] Materias disponibles 1 ------------ 
+2025-09-19 21:05:28.096 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RegistrationSubjects.Core.DTOs.SubjectDto, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 21:05:28.111 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api) in 121.0622ms
+2025-09-19 21:05:28.112 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetSubjects (RegistrationSubjects.Api)'
+2025-09-19 21:05:28.115 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/subjects - 200 null application/json; charset=utf-8 155.2756ms
+2025-09-19 21:05:28.124 -05:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/enrollments - application/json; charset=utf-8 32
+2025-09-19 21:05:28.128 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 21:05:28.132 -05:00 [INF] Route matched with {action = "Enroll", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Enroll(RegistrationSubjects.Core.DTOs.EnrollDTO) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 21:05:28.150 -05:00 [INF] Iniciando la insicripcion de materias, estudiante 1 ------------ 
+2025-09-19 21:05:28.219 -05:00 [INF] Saved 1 entities to in-memory store.
+2025-09-19 21:05:28.220 -05:00 [INF] Executing CreatedResult, writing value of type 'null'.
+2025-09-19 21:05:28.220 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api) in 87.6551ms
+2025-09-19 21:05:28.220 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.Enroll (RegistrationSubjects.Api)'
+2025-09-19 21:05:28.220 -05:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/enrollments - 201 null null 95.8118ms
+2025-09-19 21:05:28.223 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/student/1 - null null
+2025-09-19 21:05:28.225 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 21:05:28.227 -05:00 [INF] Route matched with {action = "GetStudentEnrolls", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetStudentEnrolls(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 21:05:28.230 -05:00 [INF] Iniciando la obtencion de materias inscritas 1 ------------ 
+2025-09-19 21:05:28.238 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.StudentInfoDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 21:05:28.240 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api) in 12.5604ms
+2025-09-19 21:05:28.240 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetStudentEnrolls (RegistrationSubjects.Api)'
+2025-09-19 21:05:28.240 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/student/1 - 200 null application/json; charset=utf-8 16.7279ms
+2025-09-19 21:05:28.240 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - null null
+2025-09-19 21:05:28.240 -05:00 [INF] Executing endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 21:05:28.242 -05:00 [INF] Route matched with {action = "GetShared", controller = "Enrollments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetShared(Int32) on controller RegistrationSubjects.Api.Controllers.EnrollmentsController (RegistrationSubjects.Api).
+2025-09-19 21:05:28.244 -05:00 [INF] Iniciando la obtencion de materias  compartidas con otros estudiantes, estudiante 1 ------------ 
+2025-09-19 21:05:28.267 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[RegistrationSubjects.Core.DTOs.SubjectWithClassmatesDTO, RegistrationSubjects.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-09-19 21:05:28.268 -05:00 [INF] Executed action RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api) in 25.7854ms
+2025-09-19 21:05:28.268 -05:00 [INF] Executed endpoint 'RegistrationSubjects.Api.Controllers.EnrollmentsController.GetShared (RegistrationSubjects.Api)'
+2025-09-19 21:05:28.268 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/enrollments/shared/1 - 200 null application/json; charset=utf-8 28.2267ms
